@@ -7,7 +7,7 @@ if (N < 10){
 Console.WriteLine(N);
 }
 else {
-    while (N>0) {
+    while (N>0) {// n==0
         int digit=N%10;
         N/=10;
         if (N>0) {
